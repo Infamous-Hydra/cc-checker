@@ -1,0 +1,7 @@
+aiogram
+asyncio
+aiohttp
+requests
+PyYAML
+bs4
+motor

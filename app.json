@@ -1,0 +1,31 @@
+{
+  "env": {
+    "TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": "",
+      "required": true
+    },
+    "OWNER": {
+      "description": "Owner user_id.",
+      "value": "",
+      "required": true
+    },
+    "MONGO_URI": {
+      "description": "MongoDB connection URI.",
+      "value": "",
+      "required": true
+    }
+  },
+  "stack": "heroku-24",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
