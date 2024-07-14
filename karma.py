@@ -34,7 +34,7 @@ TOKEN = os.getenv("TOKEN", CONFIG["token"])
 OWNER = int(os.getenv("OWNER", CONFIG["owner"]))
 MONGO_URI = os.getenv("MONGO_URI", CONFIG["mongo"])
 # Define the video URL
-VIDEO_URL = "https://telegra.ph//file/58c32d4f838268ec8cfed.mp4"
+VIDEO_URL = "https://telegra.ph/file/6f0eed03464e9a95d7253.mp4"
 
 bot = Bot(TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
