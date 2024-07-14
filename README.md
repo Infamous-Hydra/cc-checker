@@ -2,7 +2,7 @@
 
 # CC CHECKER
 
-A telegram bot to check credit cards. written in aiogram
+A telegram bot to generate/check cc. written in aiogram
 
 # ⚙️ INSIDER
 
